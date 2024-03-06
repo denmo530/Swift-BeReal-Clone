@@ -11,6 +11,24 @@
 		A84E49722B969E4E00AB19EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E49712B969E4E00AB19EE /* ContentView.swift */; };
 		A84E49742B969E5000AB19EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84E49732B969E5000AB19EE /* Assets.xcassets */; };
 		A84E49772B969E5000AB19EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84E49762B969E5000AB19EE /* Preview Assets.xcassets */; };
+		A84E497F2B96A09100AB19EE /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = A84E497E2B96A09100AB19EE /* Auth */; };
+		A84E49812B96A09100AB19EE /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = A84E49802B96A09100AB19EE /* Functions */; };
+		A84E49832B96A09100AB19EE /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = A84E49822B96A09100AB19EE /* PostgREST */; };
+		A84E49852B96A09100AB19EE /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = A84E49842B96A09100AB19EE /* Realtime */; };
+		A84E49872B96A09100AB19EE /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A84E49862B96A09100AB19EE /* Storage */; };
+		A8F750122B96A61100925363 /* supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F750112B96A61100925363 /* supabase.swift */; };
+		A8F750142B96A63300925363 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = A8F750132B96A63300925363 /* Auth */; };
+		A8F750162B96A63300925363 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = A8F750152B96A63300925363 /* Functions */; };
+		A8F750182B96A63300925363 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = A8F750172B96A63300925363 /* PostgREST */; };
+		A8F7501A2B96A63300925363 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = A8F750192B96A63300925363 /* Realtime */; };
+		A8F7501C2B96A63300925363 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A8F7501B2B96A63300925363 /* Storage */; };
+		A8F7501E2B96A63300925363 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = A8F7501D2B96A63300925363 /* Supabase */; };
+		A8F750222B96A7CB00925363 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F750212B96A7CB00925363 /* AuthView.swift */; };
+		A8F750252B96AE5200925363 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F750242B96AE5200925363 /* ProfileView.swift */; };
+		A8F750282B96B2C300925363 /* supabaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F750272B96B2C300925363 /* supabaseModels.swift */; };
+		A8F7502A2B96C00100925363 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F750292B96C00100925363 /* SignUpView.swift */; };
+		A8F7502C2B96C17000925363 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F7502B2B96C17000925363 /* SignInView.swift */; };
+		A8F7502E2B97EAE500925363 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F7502D2B97EAE400925363 /* InputFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,14 @@
 		A84E49712B969E4E00AB19EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A84E49732B969E5000AB19EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84E49762B969E5000AB19EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8F750112B96A61100925363 /* supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supabase.swift; sourceTree = "<group>"; };
+		A8F750212B96A7CB00925363 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A8F750232B96AD5400925363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8F750242B96AE5200925363 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A8F750272B96B2C300925363 /* supabaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supabaseModels.swift; sourceTree = "<group>"; };
+		A8F750292B96C00100925363 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A8F7502B2B96C17000925363 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A8F7502D2B97EAE400925363 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F7501E2B96A63300925363 /* Supabase in Frameworks */,
+				A8F7501A2B96A63300925363 /* Realtime in Frameworks */,
+				A84E49832B96A09100AB19EE /* PostgREST in Frameworks */,
+				A84E49812B96A09100AB19EE /* Functions in Frameworks */,
+				A8F750142B96A63300925363 /* Auth in Frameworks */,
+				A84E497F2B96A09100AB19EE /* Auth in Frameworks */,
+				A8F750182B96A63300925363 /* PostgREST in Frameworks */,
+				A8F750162B96A63300925363 /* Functions in Frameworks */,
+				A84E49872B96A09100AB19EE /* Storage in Frameworks */,
+				A8F7501C2B96A63300925363 /* Storage in Frameworks */,
+				A84E49852B96A09100AB19EE /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +88,10 @@
 		A84E496E2B969E4E00AB19EE /* bereal-clone */ = {
 			isa = PBXGroup;
 			children = (
+				A8F750262B96B29A00925363 /* models */,
+				A8F750232B96AD5400925363 /* Info.plist */,
+				A84E498B2B96A30D00AB19EE /* views */,
+				A84E498A2B96A22000AB19EE /* lib */,
 				A84E496F2B969E4E00AB19EE /* bereal_cloneApp.swift */,
 				A84E49712B969E4E00AB19EE /* ContentView.swift */,
 				A84E49732B969E5000AB19EE /* Assets.xcassets */,
@@ -65,6 +106,34 @@
 				A84E49762B969E5000AB19EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A84E498A2B96A22000AB19EE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A8F750112B96A61100925363 /* supabase.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A84E498B2B96A30D00AB19EE /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A8F750212B96A7CB00925363 /* AuthView.swift */,
+				A8F750242B96AE5200925363 /* ProfileView.swift */,
+				A8F750292B96C00100925363 /* SignUpView.swift */,
+				A8F7502B2B96C17000925363 /* SignInView.swift */,
+				A8F7502D2B97EAE400925363 /* InputFieldView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A8F750262B96B29A00925363 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F750272B96B2C300925363 /* supabaseModels.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,19 @@
 			dependencies = (
 			);
 			name = "bereal-clone";
+			packageProductDependencies = (
+				A84E497E2B96A09100AB19EE /* Auth */,
+				A84E49802B96A09100AB19EE /* Functions */,
+				A84E49822B96A09100AB19EE /* PostgREST */,
+				A84E49842B96A09100AB19EE /* Realtime */,
+				A84E49862B96A09100AB19EE /* Storage */,
+				A8F750132B96A63300925363 /* Auth */,
+				A8F750152B96A63300925363 /* Functions */,
+				A8F750172B96A63300925363 /* PostgREST */,
+				A8F750192B96A63300925363 /* Realtime */,
+				A8F7501B2B96A63300925363 /* Storage */,
+				A8F7501D2B96A63300925363 /* Supabase */,
+			);
 			productName = "bereal-clone";
 			productReference = A84E496C2B969E4E00AB19EE /* bereal-clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +193,9 @@
 				Base,
 			);
 			mainGroup = A84E49632B969E4E00AB19EE;
+			packageReferences = (
+				A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = A84E496D2B969E4E00AB19EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F750122B96A61100925363 /* supabase.swift in Sources */,
 				A84E49722B969E4E00AB19EE /* ContentView.swift in Sources */,
+				A8F750252B96AE5200925363 /* ProfileView.swift in Sources */,
+				A8F7502A2B96C00100925363 /* SignUpView.swift in Sources */,
+				A8F750222B96A7CB00925363 /* AuthView.swift in Sources */,
 				A84E49702B969E4E00AB19EE /* bereal_cloneApp.swift in Sources */,
+				A8F7502C2B96C17000925363 /* SignInView.swift in Sources */,
+				A8F750282B96B2C300925363 /* supabaseModels.swift in Sources */,
+				A8F7502E2B97EAE500925363 /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -254,6 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -275,11 +369,13 @@
 				DEVELOPMENT_TEAM = N5XJ8MYCY3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bereal-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +400,13 @@
 				DEVELOPMENT_TEAM = N5XJ8MYCY3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bereal-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +442,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A84E497E2B96A09100AB19EE /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		A84E49802B96A09100AB19EE /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		A84E49822B96A09100AB19EE /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		A84E49842B96A09100AB19EE /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		A84E49862B96A09100AB19EE /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		A8F750132B96A63300925363 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		A8F750152B96A63300925363 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		A8F750172B96A63300925363 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		A8F750192B96A63300925363 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		A8F7501B2B96A63300925363 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		A8F7501D2B96A63300925363 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84E497D2B96A09000AB19EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A84E49642B969E4E00AB19EE /* Project object */;
 }

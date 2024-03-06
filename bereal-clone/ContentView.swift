@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isAuthenticated = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack() {
+            Color(UIColor(named: "BodyColor")!).ignoresSafeArea()
+            
+            VStack {
+                Group {
+                    if isAuthenticated {
+                        ProfileView()
+                    } else {
+                        AuthView()
+                    }
+                }
+                .task {
+                    for await (event, session) in await supabase.auth.authStateChanges {
+                        if [.initialSession, .signedIn, .signedOut].contains(event) {
+                            isAuthenticated = session != nil
+                        }
+                    }
+            }
+            }
         }
-        .padding()
     }
 }
 
